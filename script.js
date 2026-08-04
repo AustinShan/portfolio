@@ -26,7 +26,7 @@ const projects = [
   make('扎西德勒','media','将文化意象转化为平面、动态与展示空间中的连续体验。','视觉概念、海报、动态与展示内容设计','Photoshop / Illustrator / After Effects',[...poster('媒体设计/4、扎西德勒/平面海报1','静态海报'),...poster('媒体设计/4、扎西德勒/平面海报2','平面海报'),...['金鱼.mp4','莲花.mp4','盘长.mp4','白盖.mp4','法轮.mp4','法螺.mp4','宝瓶.mp4','宝伞.mp4'].map(x=>`媒体设计/4、扎西德勒/动态海报/${x}`),'媒体设计/4、扎西德勒/交互与展示/展示视频.mp4','媒体设计/4、扎西德勒/交互与展示/交互展示.mp4']),
   make('E-secret','media','以短片形式表达情绪与概念，兼具视觉张力与叙事节奏。','视觉节奏、剪辑与动态表达','After Effects / Premiere',['媒体设计/5、E-secret/《E-secret》.mp4','媒体设计/5、E-secret/关键帧 .jpg']),
   make('The Original Senses','media','围绕感官体验展开的沉浸式动态视觉表达。','动态视觉与内容呈现','After Effects / Premiere / Photoshop',['媒体设计/6、The Original Senses/《The Original Senses》.mp4','媒体设计/6、The Original Senses/关键帧.jpg']),
-  make('绿洲计划','media','以环境与成长为主题形成具有引导感的视觉系统。','视觉策划、平面与内容编排','Photoshop / Illustrator',seq('媒体设计/7、绿洲计划','',1,20,'png',1)),
+  make('绿洲计划','media','以环境与成长为主题形成具有引导感的视觉系统。','视觉策划、平面与内容编排','Photoshop / Illustrator',['媒体设计/7、绿洲计划/9.jpg',...seq('媒体设计/7、绿洲计划','',1,20,'png',1,[9])]),
   make('日行记','media','把日常观察转化为可被观看与回味的时间叙事。','视频创作、画面编排与视觉叙事','After Effects / Premiere / Photoshop',['媒体设计/8、日行记/日行记.MP4',...seq('媒体设计/8、日行记','',1,3,'png',1)])
 ];
 const labels={ip:'IP 视觉',brand:'品牌 / 包装',media:'媒体 / 动态'};

@@ -3,6 +3,8 @@ preview-server.cjs
 README_编辑说明.md
 简历.jpg
 _pack.js
+node_modules/
+package-lock.json
 *.aep
 *.ai
 *.docx
